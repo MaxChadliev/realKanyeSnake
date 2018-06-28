@@ -1,5 +1,20 @@
 $(document).ready(function(){
+  $('.btn1')
 
+  $(function(){
+    resizeCanvas();
+});
+
+$(window).on('resize', function(){
+    resizeCanvas();
+});
+
+function resizeCanvas()
+{
+    var canvas = $('#canvas');
+    canvas.css("width", $(window).width());
+    canvas.css("height", $(window).height());
+}
 
   $('body').on({
     'mousewheel': function(e) {
@@ -69,14 +84,15 @@ $('button').on('click', function(){
   clickButton = $(this).attr("name");
   console.log("clicked");
   if(clickButton === 'easy'){
-    // console.log("one")
+    $(this).addClass("active");
     blah = -4
   } if(clickButton === 'medium'){
     blah = 1;
     // console.log("blah")
   } if (clickButton === 'kanye'){
     blah =3;
-  }})
+  }
+})
 
 // game loop
 function loop() {
@@ -262,21 +278,21 @@ function loop() {
 $(document).ready(function(){
   $(".btn1").click(function(){
   
-    $('.btn2').removeClass('active');
-    $('.btn3').removeClass('active');
+    $('.btn1').removeClass('active');
+    $('.btn1').removeClass('active');
     $(this).addClass("active");
     
   });
-  $(".btn2").click(function(){
+  $(".btn1").click(function(){
 
     $('.btn1').removeClass('active');
-    $('.btn3').removeClass('active');
+    $('.btn1').removeClass('active');
     $(this).addClass("active");
   });
-  $(".btn3").click(function(){
+  $(".btn1").click(function(){
 
     $('.btn1').removeClass('active');
-    $('.btn2').removeClass('active');
+    $('.btn1').removeClass('active');
     $(this).addClass("active");
   });
 });

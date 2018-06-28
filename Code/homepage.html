@@ -40,10 +40,10 @@
 <div id="menu">
 <img class="king" src="../Images/kanye-west-buys-grenade-proof-suv-dartz-prombron.gif" alt="King Kanye">
 <a class="menuButton" href="../Code/snake1.html" id="newgame_menu">new game</a>
-<a class="menuButton" id="setting_menu" data-toggle="modal" data-target="#myModal">settings</a>
+<a class="menuButton" id="setting_menu" data-toggle="modal" data-target="#myModal">instructions</a>
 
 <!-- Modal -->
-<div class="container">
+<!-- <div class="container">
     <div class="modal fade background" id="myModal" role="dialog">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -56,16 +56,12 @@
           <div class="modal-body">
             <div class="speed">
               <p>Speed:</p>
-              <button class="btn1 slow">Slow</button>
+              <button class="btn1 slow">Easy</button>
               <button class="btn1 medium">Medium</button>
               <button class="btn1 kanyeSpeed">KANYE</button>
             </div>
             
-            <!-- <div class="walls">
-                <h3>Walls</h3>
-                <button class="btn2 on">On</button>
-                <button class="btn2 off">Off</button>
-              </div> -->
+        
 
               
           </div>
@@ -78,10 +74,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container">
-      <div class="modal fade background" id="theModal" role="dialog">
+      <div class="modal fade background" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -95,15 +91,16 @@
               <li>Use the arrow keys to change the direction of KanyeSnake</li>
               <li>Each Kanye eaten will extend the length of the Snake by 1 Kanye</li>
               <li>Each celebrity/rapper eaten will increase the length of the Snake by 3 Kanye</li>
-              <li>If the Snake collides with itself (or walls), you lose!</li>
+              <li>If the Snake collides with itself, you lose!</li>
               <li>Eat the final boss to win the game!</li>
           
             </ul>
             </div>
-
             <div class="modal-footer">
-              
-            </div>
+                <a class="btn submitSetting" href = "../Code/snake1.html">
+                  Start Game</a>
+              </div>
+           
           </div>
         </div>
       </div>
