@@ -29,7 +29,7 @@ var modal = document.getElementById("modal");
  var canvas = document.getElementById('game');
     var context = canvas.getContext('2d');
     var kanyeFace = new Image();
-    kanyeFace.src = "https://vignette.wikia.nocookie.net/star-clan/images/9/90/Kanye.png/revision/latest?cb=20150410173932"
+    kanyeFace.src = "../Images/kisspng-kanye-west-clip-art-west-5b132707caa3a7.44695694152798183183.png"
     var drakeFace = new Image();
     drakeFace.src = "../Images/kisspng-drake-rapper-desktop-wallpaper-young-money-head-5abcd570428bd6.2678425515223248482726.png"
     var jayFace = new Image();
