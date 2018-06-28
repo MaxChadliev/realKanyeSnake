@@ -61,6 +61,12 @@ p {
 
 }
 
+.menuButton:hover {
+  color: #E81333;
+
+
+}
+
 #menu img {
   height: 380px;
   width: 500px;
@@ -69,10 +75,9 @@ p {
   align-content: center;
   padding-bottom: 45px;
 }
-
+/* 
 #menu a:hover { 
-  color: #E81333;
-}
+} */
 
 .modal-footer a{
   padding-top: 8px;
@@ -147,9 +152,12 @@ h3{
   
 }
 
-.submitSetting, .instructions{
+.submitSetting{
   background-color: #EB1B3C;
+
 }
+
+
 
 .instru-body{
   padding-top: 10px;
