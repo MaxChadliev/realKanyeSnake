@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content= "width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "./snake1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <title>KanyeSnake</title>
+
+  
+</head>
+<body>
+<div class="container-fluid"> 
+  <div class="row"> 
+    <header class="col-sm-12 header1">
+        <h1><a href = "./homepage.html" id = "headerTop">KanyeSnake</a></h1>
+        <p class="score">Score: 
+        <span id="score_value"></span>
+        </p>
+      </header>
+  </div>
+<div class="row">
+    <div class= "col-sm-2 leftContainer">
+      <iframe src="https://open.spotify.com/embed/user/maxpax92/playlist/1Dg8FuXs2OE1PKz2H7PVhG" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <!-- <iframe src="https://open.spotify.com/embed?uri=spotify:album:1DFixLWuPkv3KT3TnV35m3" id="playlist" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+    </div>
+    <div class="col-sm-8 centerContainer">
+      <div id = "buttonz">
+        <button class="btn1" name = "easy">Easy</button>
+        <button class="btn2" name = "medium">Medium</button>
+        <button class="btn3" name = "kanye">KANYE</button>
+      </div>
+      
+      
+          
+      <div class="canvasGame">
+        <canvas width="1200" height="800" id="game"></canvas>
+        <script src= "snake1.js"></script>
+    
+        <div class="modal fade background" id="myModal0" role="dialog">
+          <div class="modal-dialog modal-lg" id="myModal2">
+            <div class="modal-content">
+              <div class="modal-header" id = "myModal3">
+                <h1 class="modal-title">CONGRATULATIONS, YOU'VE WON!</h1>
+                <h2>HIGH SCORE - 420 POINTS</h2>
+                <h3><a class="btn submitSetting" href = "./snake1.html"> Play Again</a></h3>
+              </div>  
+              </div>
+            </div>
+        </div> 
+      </div>
+      
+          
+          
+  </div>
+</div>
+
+
+
+
+
+
+  
+  
+
+
+
+ 
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script src="../Code/homepage.js"></script>
+<audio src="..//Images/kanye_west_-_all_mine.mp3" autoplay=yes></audio>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../Code/homepage.css">
+  <title>homepage</title>
+      <!-- <source src="../Kanye West - All Mine.mp3" type="audio/mpeg"> -->
+     
+  <!-- </audio> -->
+  
+</head>
+
+
+<body>
+
+<header class="wrap">
+<h1>KanyeSnake</h1>
+<p class="score">Score: 
+<span id="score_value">0</span>
+</p>
+
+</header>
+
+<div id="menu">
+<img class="king" src="../Images/kanye-west-buys-grenade-proof-suv-dartz-prombron.gif" alt="King Kanye">
+<a class="menuButton" href="../Code/snake1.html" id="newgame_menu">new game</a>
+<a class="menuButton" id="setting_menu" data-toggle="modal" data-target="#myModal">settings</a>
+
+<!-- Modal -->
+<div class="container">
+    <div class="modal fade background" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-top">
+            <h1 class="modal-title">Settings</h1>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="speed">
+              <p>Speed:</p>
+              <button class="btn1 slow">Slow</button>
+              <button class="btn1 medium">Medium</button>
+              <button class="btn1 kanyeSpeed">KANYE</button>
+            </div>
+            
+            <!-- <div class="walls">
+                <h3>Walls</h3>
+                <button class="btn2 on">On</button>
+                <button class="btn2 off">Off</button>
+              </div> -->
+
+              
+          </div>
+          <div class="modal-footer">
+            <a class="btn submitSetting" href = "../Code/snake1.html">
+              Start Game</a>
+            <button id="instruction_menu" type="button" data-toggle="modal" data-target="#theModal"
+             class="btn instructions" data-dismiss="modal">Instructions</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="modal fade background" id="theModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-top">
+                <h1 class="modal-title">Instructions</h1>
+                </div>
+            </div>
+            <div class="instru-body">
+            <ul class="instruText">
+              <li>Use the arrow keys to change the direction of KanyeSnake</li>
+              <li>Each Kanye eaten will extend the length of the Snake by 1 Kanye</li>
+              <li>Each celebrity/rapper eaten will increase the length of the Snake by 3 Kanye</li>
+              <li>If the Snake collides with itself (or walls), you lose!</li>
+              <li>Eat the final boss to win the game!</li>
+          
+            </ul>
+            </div>
+
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+  
+
+</html>
