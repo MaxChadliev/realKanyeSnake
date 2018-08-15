@@ -11,6 +11,8 @@
   }
 }
 
+
+
 #game {
   text-align: center;
   background-color: #E81333;
@@ -18,12 +20,12 @@
   border-color: turquoise;
   
   }
-/* .canvasGame{
- display: flex;
- justify-content: center;
+.canvasGame{
+  margin-left: 200px;
+  zoom: 75%;
 
 
-} */
+}
 
 
 /* css for navbar */

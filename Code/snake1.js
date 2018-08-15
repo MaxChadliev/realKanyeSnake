@@ -257,7 +257,7 @@ function loop() {
       else if (e.which === 40 && snake.dy === 0) {
         snake.dy = grid;
         snake.dx = 0;
-      }
+      } 
     });
 
     
